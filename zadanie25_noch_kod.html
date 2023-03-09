@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Oleksandra Nochovna</title>
+</head>
+<body>
+<p> zadanie25_noch.html kod</p>
+<textarea>
+ <!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<meta charset="utf-8">
+<title>Właściwości czcionek-Nochovna</title>
+<LINK href="czcionki_nochovna.css" rel="stylesheet" type="text/CSS">
+</head>
+<body>
+<h1>Oleksandra Nochovna klasa 1P, układ 2</h1>
+<h2>Akapit 1- do prawej</h2>
+<p>
+rodzina czcionki 1 (patrz tabela Sposób kodowania rodziny czcionek") czyli--> serif
+kolory tekstu (patrz pierwsza tabela kolorów" wg numeru w dzienniku) czyli--> Odcienie koloru pomarańczowego
+dekoracja tekstu 3 (patrz tabela,,Sposób kodowania dekoracji tekstu") jedno zdanie w tekście czyli--> Nadkreślić
+styl czcionek 2 (patrz tabela „Sposób kodowania stylu tekstu") jedno zdanie w tekście czyli--> italic
+wariant czcionki--> kapitaliki, jedno zdanie w tekście
+grubości czcionek:
+<ul><li>jedno zdanie w tekście 400 
+<li>jedno zdanie w tekście 600
+<li>jedno zdanie w tekście 800
+</ul>
+rozmiary czcionek:
+<ul><li>jedno zdanie w tekście 1 czyli -->xx-small
+<li>jedno zdanie w tekście 4 czyli -->medium  
+<li>jedno zdanie w tekście 7 czyli -->xx-large
+patrz tabele,,Sposób kodowania wielkości czcionek"
+</ul>transformacja tekstu jedno zdanie w tekście ma być wyświetlane małymi literami
+wcięcia tekstu: 3 cm
+odstępy między: wierszami 1,2cm
+odstępy między: wyrazami 9px
+odstępy między: literami 3ex
+</p>
+<p id="akapit1_nochovna">
+<sz id="z1_nochovna">Informatyka – nauka ścisła oraz techniczna zajmująca się przetwarzaniem informacji, w tym również technologiami przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje.</sz>
+<sz id="z2_nochovna">
+ Zajmuje się rozwiązywaniem problemów obliczeniowych, opisem procesów algorytmicznych oraz tworzeniem programów komputerowych i częściowo sprzętu komputeroweg.</sz>
+<sz id="z3_nochovna">
+ Informatyka początkowo stanowiła część matematyki, z czasem wyodrębniła się do oddzielnej dyscypliny. </sz>
+</p>
+
+<h3>Akapit 2- centrowany</h3>
+<p>
+rodzina czcionki 2 (patrz tabela Sposób kodowania rodziny czcionek") czyli--> sans-serif
+ kolory tekstu (patrz pierwsza tabela kolorów" wg numeru w dzienniku) czyli--> Odcienie koloru zielonego
+      dekoracja tekstu 2 (patrz tabela,,Sposób kodowania dekoracji tekstu") jedno zdanie w tekście czyli--> Podreślić
+      styl czcionek 3 (patrz tabela „Sposób kodowania stylu tekstu") jedno zdanie w tekście czyli--> oblique
+      wariant czcionki--> kapitaliki, jedno zdanie w tekście
+      
+      grubości czcionek:
+      <ul><li>jedno zdanie w tekście 300 
+      <li>jedno zdanie w tekście 600
+      <li>jedno zdanie w tekście 800
+      </ul>
+      rozmiary czcionek:
+      <ul><li>jedno zdanie w tekście -->wybierz i wpisz sam ?? px
+      <li>jedno zdanie w tekście -->wybierz i wpisz sam ?? in  
+      <li>jedno zdanie w tekście -->wybierz i wpisz sam ?? em
+      </ul>transformacja tekstu jjedno zdanie w tekście ma być 
+wyświetlane w taki sposób, aby 
+każde nowe słowo zaczynało się z 
+dużej litery
+
+      wcięcia tekstu: 15mm
+      odstępy między: wierszami 18mm
+      odstępy między: wyrazami 13pt
+      odstępy między: literami 0.3cm
+</p>
+<p id="akapit2_nochovna">
+<sz id="z4_nochovna">Kaskadowe arkusze stylów – język służący do opisu formy prezentacji stron WWW.</sz>
+<sz id="z5_nochovna">
+ CSS został opracowany przez organizację W3C w 1996 r. jako potomek języka DSSSL przeznaczony do używania w połączeniu z SGML-em.</sz>
+<sz id="z6_nochovna"> Pierwszy szkic CSS zaproponował w 1994 r. Håkon Wium Lie.</sz>
+</p>
+</body>
+</html>
+</textarea>
+<p> czcionki_nochovna.css kod </p>
+<textarea>
+h1
+{
+font-size: 1cm;
+color: #FF0000;
+text-align: right;
+}
+h2
+{
+color: #0000FF;
+text-align: right;
+}
+h3
+{
+color: #0000FF;
+text-align: center;
+}
+p#akapit1_nochovna
+{
+text-indent: 3cm;
+color: #ff4500 ;  
+word-spacing: 9px;
+line-height: 1.2cm;
+letter-spacing: 3ex;
+text-align: right;
+font-family: serif;
+}
+p#akapit2_nochovna
+{
+font-family: sans-serif;
+color: #008080;
+text-indent: 15mm;
+word-spacing: 13pt;
+line-height: 18mm;
+letter-spacing: 0.3cm;	
+text-align: center;
+}
+#z1_nochovna
+{
+    font-size: xx-small;
+    font-weight: 400;
+    text-decoration: overline;
+    font-variant: small-caps;
+}
+#z2_nochovna
+{
+    font-size: medium ;
+    font-weight: 600;
+    font-style: italic;
+}
+#z3_nochovna
+{
+    font-size: xx-large;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#z4_nochovna
+{
+    text-transform: capitalize;
+    font-size: 71px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+#z5_nochovna
+{
+    font-size: 1in;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+#z6_nochovna
+{
+    font-size: 1em;
+    font-weight: 800;
+    font-variant:small-caps;
+}
+</textarea>
+</body>
+</html>
