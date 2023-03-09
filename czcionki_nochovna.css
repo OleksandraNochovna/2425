@@ -1,0 +1,76 @@
+h1
+{
+font-size: 1cm;
+color: #FF0000;
+text-align: right;
+}
+h2
+{
+color: #0000FF;
+text-align: right;
+}
+h3
+{
+color: #0000FF;
+text-align: center;
+}
+p#akapit1_nochovna
+{
+text-indent: 3cm;
+color: #ff4500 ;  
+word-spacing: 9px;
+line-height: 1.2cm;
+letter-spacing: 3ex;
+text-align: right;
+font-family: serif;
+}
+p#akapit2_nochovna
+{
+font-family: sans-serif;
+color: #008080;
+text-indent: 15mm;
+word-spacing: 13pt;
+line-height: 18mm;
+letter-spacing: 0.3cm;	
+text-align: center;
+}
+#z1_nochovna
+{
+    font-size: xx-small;
+    font-weight: 400;
+    text-decoration: overline;
+    font-variant: small-caps;
+}
+#z2_nochovna
+{
+    font-size: medium ;
+    font-weight: 600;
+    font-style: italic;
+}
+#z3_nochovna
+{
+    font-size: xx-large;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+#z4_nochovna
+{
+    text-transform: capitalize;
+    font-size: 71px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+#z5_nochovna
+{
+    font-size: 1in;
+    font-weight: 600;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+#z6_nochovna
+{
+    font-size: 1em;
+    font-weight: 800;
+    font-variant:small-caps;
+}
+
